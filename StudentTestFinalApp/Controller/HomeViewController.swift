@@ -20,10 +20,6 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         tableView.delegate = self
         tableView.dataSource = self
         tableView.backgroundColor = UIColor.clear
-        //self.addNewTestButton.applyGradient(colours: [UIColor.init(red: 0, green: 224, blue: 181, alpha: 1.0),UIColor.init(red: 00, green: 00, blue: 00, alpha:1.0)], locations: [0.0, 0.5, 1.0])
-
-        //tableView.layer.borderColor = self.addNewTestButton.backgroundColor?.cgColor
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
